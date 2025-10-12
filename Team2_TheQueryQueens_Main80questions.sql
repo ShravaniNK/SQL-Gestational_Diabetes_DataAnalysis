@@ -1,4 +1,4 @@
---------------------------------------TEAM-2_SQL_HACKATHON_TheQueryQueens_MAY2025------------------------------------------------
+--------------------------------------GESTATIONAL DIABETES DATASET ANALYSIS MAY2025------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------------------------
 /* Qn. 1. Display the duplicate participant_id and total number of duplicate records, 
@@ -1876,4 +1876,5 @@ SELECT * FROM call_for_all_gdm()
 SELECT 'GDM' AS category, COUNT(participant_id) AS counts FROM glucose_tests WHERE diagnosed_gdm = 0
 UNION
 SELECT 'NON GDM' AS category, COUNT(participant_id) AS counts FROM glucose_tests WHERE diagnosed_gdm = 1;
+
 --------------------------------------------------------------------------------------------------------------------------------
